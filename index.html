@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tim's portfolio</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="..." crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-lg">
+          <div class="container-fluid">
+            <button class="navbar-toggler navbar-toggler-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#index" onclick="scrollToSection('#index')">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#about" onclick="scrollToSection('#about')">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#projects" onclick="scrollToSection('#projects')">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#contact" onclick="scrollToSection('#contact')">Contact me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <main>
+        <div class="container" id="index">
+            <div class="row center-content">
+              <div class="col-md-6 text-end">
+                <div class="index-name">Tim Blažič</div>
+                <div class="title fw-bold"><span class="sign">&lt</span>Full-Stack Developer<span class="sign">&gt</span></div>
+                <div class="text1 text-end">Place where your imagination becomes reality</div>
+                <div class="text1 text-end" style="margin-top: 10px;"><a class="btn btn-primary" href="#contact" role="button">Contact Me</a></div>
+              </div>
+              <div class="col-md-6">
+                <img src="images/profilePic.png" height="300" width="300" class="index-picture">
+              </div>
+            </div>
+        </div>
+          
+        <div class="container" id="about" style="margin-top: 50vh;">
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <div class="title fw-bold text-center" style="font-size: 42px;"><span class="sign">&lt;</span>Who am I?<span class="sign">&gt;</span></div>
+                <div class="text1 center-content text-center">
+                  Hello, I'm Tim, a Full-stack web developer with a strong focus on Python. With expertise in both front-end and back-end development, I specialize in creating dynamic and efficient web applications.
+                </div>
+                <div class="text2 center-content text-center">
+                  With a solid foundation in web development frameworks like Django and Flask, I have crafted seamless user experiences and implemented complex functionalities. I am adept at integrating databases.
+                </div>
+                <div class="text3 center-content text-center">
+                  My passion for problem-solving drives me to explore new technologies and stay up-to-date with the latest Python libraries and frameworks. This enables me to leverage cutting-edge tools and techniques to deliver innovative solutions.
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+          <div class="container" id="projects">
+            <div class="title fw-bold text-center" style="font-size: 42px;"><span class="sign">&lt;</span>Projects<span class="sign">&gt;</span></div>
+            <p class="text-center">
+              Here you can see some of the projects I have worked on. Each project showcases my skills and expertise in web development, utilizing technologies like HTML, CSS, Python, and more.
+            </p>
+            <hr class="featurette-divider"></div>
+            <br>
+          
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="project-title fw-bold text-center"><span class="sign">&lt;</span>Wealthsense<span class="sign">&gt;</span></div>
+                  </div>
+                  <div class="col-md-12">
+                    <p class="text-center">
+                      Here you can see some of the projects I have worked on. Each project showcases my skills and expertise in web development, utilizing technologies like HTML, CSS, JavaScript, and more.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img src="/images/project1.png" class="img-fluid shadow-lg" alt="Project Image">
+              </div>
+            </div>
+            <br>
+            <hr class="featurette-divider">
+            <br>
+          
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <img src="/images/project2.png" class="img-fluid shadow-lg" alt="Project Image">
+                  </div>
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="project-title fw-bold text-center"><span class="sign">&lt;</span>Lokator<span class="sign">&gt;</span></div>
+                  </div>
+                  <div class="col-md-12">
+                    <p class="text-center">
+                      Lokator is an interactive game that puts your knowledge of geography and history to the test. In this exciting adventure, you will have to guess the locations and years in which the provided photographs were taken. Using Python as the backend programming language, and HTML, CSS, and JavaScript for the frontend development.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <br>
+            <hr class="featurette-divider">
+            <br>
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="project-title fw-bold text-center"><span class="sign">&lt;</span>Personal Portfolio<span class="sign">&gt;</span></div>
+                  </div>
+                  <div class="col-md-12">
+                    <p class="text-center">
+                        The website exudes a visually stunning and professional aesthetic, capturing the essence of my creative work. It showcases a thoughtfully designed interface with an intuitive user experience, inviting you to explore and discover the various facets of my portfolio. From eye-catching visuals to concise project descriptions, the image offers a glimpse into the diverse range of my skills and expertise.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img src="/images/project3.png" class="img-fluid shadow-lg" alt="Project Image">
+              </div>
+            </div>
+          </div>
+
+
+          <section id="contact" class="py-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                <div class="title fw-bold text-center" style="font-size: 42px;"><span class="sign">&lt;</span>Contact Me<span class="sign">&gt;</span></div>
+                  <p>Feel free to reach out to me via social media or email.</p>
+                  <div class="social-icons">
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="https://github.com/TimBlazic">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                          <span class="icon-text">GitHub</span>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/tim-bla%C5%BEi%C4%8D-9b6b97257/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg>
+                          <span class="icon-text">LinkedIn</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="contact-form mt-4">
+                    <form action="https://formspree.io/f/xnqyebew" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Your Name">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="Your Email">
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control" rows="5" name="message" placeholder="Your Message"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+    </main>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="..." crossorigin="anonymous"></script>
+    <script>
+        function scrollToSection(sectionId) {
+          const section = document.querySelector(sectionId);
+          if (section) {
+            const navbarHeight = document.querySelector('nav').offsetHeight;
+            const scrollTop = section.offsetTop - navbarHeight;
+            window.scrollTo({
+              top: scrollTop,
+              behavior: 'smooth'
+            });
+          }
+        }
+      </script>
+  </body>
+</html>
