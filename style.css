@@ -221,6 +221,9 @@ body {
     .text3 {
       padding-bottom: 20vh;
     }
+    #about .text1{
+        padding-top: 5vh;
+    }
   }
 
   
